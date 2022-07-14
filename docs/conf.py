@@ -40,7 +40,7 @@ extensions = [
     'sphinx.ext.todo', # https://www.sphinx-doc.org/en/master/usage/extensions/todo.html
     'sphinx.ext.ifconfig', # https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html
     # 'sphinx.ext.napoleon',
-    "numpydoc",
+    #"numpydoc",
     "sphinx_autodoc_typehints",  # Automatically document param types (less noise in class signature) | Only works with 'sphinx.ext.napoleon'
     "sphinx.ext.linkcode",
     'sphinx.ext.doctest' # to execute run -> make doctest # https://stackoverflow.com/questions/9809434/auto-generate-doctest-output-with-sphinx-extension
