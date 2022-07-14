@@ -4,6 +4,10 @@ This module demonstrates documentation as specified by the `NumPy
 Documentation HOWTO <www.google.com>`_. Docstrings may extend over multiple lines. Sections
 are created with a section header followed by an underline of equal length.
 
+.. rst-class:: special
+
+	.. centered:: Copyright © iMindLabs, Inc - All Rights Reserved. Unauthorized copying of this file, 
+                 via any medium is strictly prohibited. Proprietary and confidential. 
 
 
 .. code-block:: ruby
