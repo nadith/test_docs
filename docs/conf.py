@@ -33,15 +33,15 @@ release = '1.0.0'
 # extensions = ['sphinx.ext.autodoc', 'sphinx.ext.coverage', 'numpydoc'] #'sphinx.ext.napoleon']
 
 extensions = [
-    #'matplotlib.sphinxext.plot_directive', # Ref: https://matplotlib.org/3.1.3/devel/plot_directive.html
+    #'matplotlib.sphinxext.plot_directive', # Ref: https://matplotlib.org/3.1.3/devel/plot_directive.html  # ReadTheDocs reports error
     "sphinx.ext.autodoc",  # Core Sphinx library for auto html doc generation from docstrings
     "sphinx.ext.autosummary",  # Create neat summary tables for modules/classes/methods etc
     "sphinx.ext.intersphinx",  # Link to other project's documentation (see mapping below)
     'sphinx.ext.todo', # https://www.sphinx-doc.org/en/master/usage/extensions/todo.html
     'sphinx.ext.ifconfig', # https://www.sphinx-doc.org/en/master/usage/extensions/ifconfig.html
-    # 'sphinx.ext.napoleon',
-    #"numpydoc",
-    #"sphinx_autodoc_typehints",  # Automatically document param types (less noise in class signature) | Only works with 'sphinx.ext.napoleon'
+    ## 'sphinx.ext.napoleon',
+    "numpydoc", # ReadTheDocs reports error
+    #"sphinx_autodoc_typehints",  # Automatically document param types (less noise in class signature) | Only works with 'sphinx.ext.napoleon' # ReadTheDocs reports error
     "sphinx.ext.linkcode",
     'sphinx.ext.doctest' # to execute run -> make doctest # https://stackoverflow.com/questions/9809434/auto-generate-doctest-output-with-sphinx-extension
                         # https://www.sphinx-doc.org/en/master/usage/extensions/doctest.html
