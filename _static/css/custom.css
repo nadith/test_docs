@@ -1,0 +1,21 @@
+p.special {
+    background: #ffcccc;
+    padding: 10px;
+}
+
+div.copyright_container {
+    background: #404040;
+    padding: 2px;
+    color: white;
+}
+
+p.copyright_header {
+    padding: 2px 10px 2px 10px;
+    margin: 0px;
+}
+
+p.copyright_body {
+    background: #db307a;
+    padding: 10px;
+    margin: 0px;
+}
