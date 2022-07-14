@@ -33,7 +33,7 @@ release = '1.0.0'
 # extensions = ['sphinx.ext.autodoc', 'sphinx.ext.coverage', 'numpydoc'] #'sphinx.ext.napoleon']
 
 extensions = [
-    'matplotlib.sphinxext.plot_directive', # Ref: https://matplotlib.org/3.1.3/devel/plot_directive.html
+    #'matplotlib.sphinxext.plot_directive', # Ref: https://matplotlib.org/3.1.3/devel/plot_directive.html
     "sphinx.ext.autodoc",  # Core Sphinx library for auto html doc generation from docstrings
     "sphinx.ext.autosummary",  # Create neat summary tables for modules/classes/methods etc
     "sphinx.ext.intersphinx",  # Link to other project's documentation (see mapping below)
